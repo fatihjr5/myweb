@@ -46,7 +46,7 @@ function Portofolio() {
             </div>
             <div className="flex items-center justify-between pb-3">
                 <section className="flex flex-col">
-                    <h5 className="text-base font-medium text-black mb-1">The Hyatt - UI Mobile Apps</h5>
+                    <h5 className="text-base font-medium text-black mb-1">The Haytt - UI Mobile Apps</h5>
                     <p className="text-sm font-normal text-gray-500">UI Design</p>
                 </section>
                 <a href="https://www.instagram.com/p/Cc4P8SRBdqg/?utm_source=ig_web_copy_link" className='px-4 py-2 text-sm font-medium rounded-lg text-white bg-black'>See Detail</a>
