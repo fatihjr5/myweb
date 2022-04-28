@@ -7,7 +7,7 @@ import { useRouter } from 'next/router'
 function Navbar() {
     const router = useRouter();
   return (
-    <div className="fixed max-w-xs sm:max-w-sm md:max-w-lg mx-auto inset-x-0 bottom-10 bg-[#fefefe] border border-[#ebebeb] px-3 py-3 rounded-xl" style={{ boxShadow: "10px 10px 40px 0px rgba(0,0,0,0.08)" }}>
+    <div className="fixed max-w-xs sm:max-w-sm md:max-w-lg mx-auto inset-x-0 bottom-8 bg-[#fefefe] border border-[#ebebeb] px-3 py-3 rounded-xl" style={{ boxShadow: "10px 10px 40px 0px rgba(0,0,0,0.08)" }}>
         <div className="flex justify-around items-center">
             <Link href="/">
                 <div  className={router.asPath == "/" ? "bg-[#f4f4fb] text-[#3700b3] flex px-4 py-3  gap-x-1 items-center cursor-pointer rounded-lg" : "flex text-gray-400 gap-x-1 px-4 py-3 items-center hover:text-[#3700b3] hover:bg-[#F3F4FB] cursor-pointer rounded-lg transform duration-300"}>
