@@ -14,22 +14,22 @@ function Contact() {
             <div className="flex justify-center items-center gap-x-4 mb-6">
                 <Link href="https://t.me/fatihjr5" className="">
                     <section className="bg-[#f3f4fb] p-3 rounded-lg cursor-pointer hover:scale-125 transform duration-300 ease-out hover:text-[#3700b3]">
-                        <FaTelegramPlane className='w-6 h-6'/>
+                        <FaTelegramPlane className='w-6 h-6 bg-transparent'/>
                     </section>
                 </Link>
                 <Link href="" className="">
                     <section className="bg-[#f3f4fb] p-3 rounded-lg cursor-pointer hover:scale-125 transform duration-300 ease-out hover:text-[#3700b3]">
-                        <FaInstagram className='w-6 h-6'/>
+                        <FaInstagram className='w-6 h-6 bg-transparent'/>
                     </section>
                 </Link>
                 <Link href="" className="">
                     <section className="bg-[#f3f4fb] p-3 rounded-lg cursor-pointer hover:scale-125 transform duration-300 ease-out hover:text-[#3700b3]">
-                        <FaDribbble className='w-6 h-6'/>
+                        <FaDribbble className='w-6 h-6 bg-transparent'/>
                     </section>
                 </Link>
                 <Link href="" className="">
                     <section className="bg-[#f3f4fb] p-3 rounded-lg cursor-pointer hover:scale-125 transform duration-300 ease-out hover:text-[#3700b3]">
-                        <FaBehance className='w-6 h-6'/>
+                        <FaBehance className='w-6 h-6 bg-transparent'/>
                     </section>
                 </Link>
             </div>
@@ -37,8 +37,8 @@ function Contact() {
             <Link href="mailto:shilla.ibra@gmail.com?subject=Hi, fatih. I'd like to collaborate or sharing with you. I'm ready anytime&cc=" className="">
                 <section className="bg-[#f3f4fb] p-3 rounded-lg cursor-pointer hover:scale-125 transform duration-300 ease-out hover:text-[#3700b3]">
                     <div className="flex gap-x-2 items-center justify-center">
-                        <MdOutlineEmail className='w-4 h-4 mt-0.5'/>
-                        <span className="text-sm font-bold">Send a Email</span>
+                        <MdOutlineEmail className='w-4 h-4 mt-0.5 bg-transparent'/>
+                        <span className="text-sm font-bold bg-transparent">Send a Email</span>
                     </div>
                 </section>
             </Link>
