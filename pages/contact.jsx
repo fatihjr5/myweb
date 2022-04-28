@@ -36,7 +36,7 @@ function Contact() {
             <p className="text-base text-center font-normal mb-6">or</p>
             <Link href="mailto:shilla.ibra@gmail.com?subject=Hi, fatih. I'd like to collaborate or sharing with you. I'm ready anytime&cc=" className="">
                 <section className="bg-[#f3f4fb] p-3 rounded-lg cursor-pointer hover:scale-125 transform duration-300 ease-out hover:text-[#3700b3]">
-                    <div className="flex gap-x-2 items-center justify-center">
+                    <div className="flex gap-x-2 items-center justify-center bg-transparent">
                         <MdOutlineEmail className='w-4 h-4 mt-0.5 bg-transparent'/>
                         <span className="text-sm font-bold bg-transparent">Send a Email</span>
                     </div>
