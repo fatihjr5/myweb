@@ -17,7 +17,7 @@ function Contact() {
                         <FaTelegramPlane className='w-6 h-6 bg-transparent'/>
                     </section>
                 </Link>
-                <Link href="" className="">
+                <Link href="https://www.instagram.com/_fatihjr/" className="">
                     <section className="bg-[#f3f4fb] p-3 rounded-lg cursor-pointer hover:scale-125 transform duration-300 ease-out hover:text-[#3700b3]">
                         <FaInstagram className='w-6 h-6 bg-transparent'/>
                     </section>
